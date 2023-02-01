@@ -9,3 +9,4 @@ test("it renders without crashing", () => {
     throw new Error("Make sure to import the required components!");
   }
 });
+exoprt default Test;

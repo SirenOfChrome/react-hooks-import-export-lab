@@ -1,4 +1,4 @@
-import "@testing-library/jest-dom";
+import Test;
 import { render } from "@testing-library/react";
 import About from "../components/About";
 
@@ -9,3 +9,4 @@ test("it is exported as a default export", () => {
     throw new Error("Make sure to export this component!");
   }
 });
+export default  About;  
